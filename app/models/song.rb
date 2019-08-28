@@ -13,7 +13,7 @@ class Song < ActiveRecord::Base
 
    
     drake = Artist.find_or_create_by(name: "Drake")
-    # binding pry
+    binding pry
     self.artist = drake
     
   end
